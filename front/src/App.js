@@ -1,7 +1,9 @@
-import React from "react";
+import PostList from "./container/post-list"
 
 function App() {
-  return <div>Hello world</div>;
+  return <div>
+    <PostList />
+  </div>;
 }
 
 export default App;
